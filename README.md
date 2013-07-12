@@ -6,8 +6,7 @@ Quick'n'dirty html rendering from python. Becaus sometimes, you don't want to in
 ### Status
 
 This is a proof of concenpt. This library generates ugly, invalid html. 
-It's only good for quick'n'dirty personal reporting.  
-For externally visible documents, use one of the many production worthy templating engines.
+It's only good for quick'n'dirty personal reporting.  For externally visible documents, use one of the many production worthy templating engines.
 
 ### Pros
 
