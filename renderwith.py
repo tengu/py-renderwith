@@ -79,7 +79,7 @@ class Render(object):
         raise AttributeError(a)
 
     def text(self, val):
-        self.out(cgi.escape(str(val)))
+        self.out(cgi.escape(val.encode('utf8')))
 
     def prefix(self):
         return ' ' * len(self.path)
